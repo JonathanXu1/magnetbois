@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Materialize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <!-- Custom styling -->
+    <link rel="stylesheet" type="text/css"  href="public/style.css">
+    <meta charset="utf-8">
+    <title>Object Viewer</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Object Viewer</a>
+        <div id="nav-mobile" class="right hide-on-med-and-down">
+          <input type="file" id="dir" name="Stl file" accept=".stl" />
+        </div>
+      </div>
+    </nav>
+
+    <!-- threejs cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/95/three.js"></script>
+    <!-- socket.io cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.dev.js"></script>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <!-- custom js -->
+    <script src="public/script.js"></script>
+  </body>
+</html>
