@@ -16,6 +16,11 @@ socket.on('data', function(data){
   }
 });
 
+//Load File
+$('input[type=file]').change(function () {
+    console.log(this.files[0].mozFullPath);
+});
+
 // Setting up 3JS Scene
 var scene = new THREE.Scene();
 var camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
